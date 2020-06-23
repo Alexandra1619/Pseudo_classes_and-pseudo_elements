@@ -54,3 +54,37 @@ h2{
 .red {
 	color: #ff0000;
 }
+
+.ser{
+	
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 25px;
+	
+}
+
+.dew{
+	padding: 5%;
+	font-size: 20px;
+	
+}
+.rog{
+	padding: 5%;
+}
+.rog:hover{
+	background-color: blueviolet;
+	border:10px dashed #333333;
+	border-radius: 5%;
+}
+.ser:hover{
+	color: blue;
+	border:10px dotted #333333;
+	border-radius: 5%;
+
+}
+.ser:active{
+	color: darkgreen;
+}
+.dew:hover{
+	color: darkorange;
+	
+}
