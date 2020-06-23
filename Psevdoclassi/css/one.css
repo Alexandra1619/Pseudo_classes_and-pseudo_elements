@@ -70,21 +70,12 @@ h2{
 .rog{
 	padding: 5%;
 }
-.rog:hover{
-	background-color: blueviolet;
-	border:10px dashed #333333;
-	border-radius: 5%;
+.dew:first-line{
+	color: #ff0000;
+	font-size: 30px;
 }
-.ser:hover{
-	color: blue;
-	border:10px dotted #333333;
-	border-radius: 5%;
-
-}
-.ser:active{
-	color: darkgreen;
-}
-.dew:hover{
-	color: darkorange;
-	
+.ser::first-letter{
+	font-size: 50px;
+	color: blueviolet;
+	font-style: italic;
 }
